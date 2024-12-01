@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Solid:wght@100;300;400;900&family=Odibee+Sans&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Teko:wght@300..700&display=swap');
+
+body{
+    background-color: #DBD9D1;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+
+.front-view{
+    background-color: #dbd9d152;
+}
+
+.navbar li a{
+    color: #293c51d8;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-size: 20px;
+    padding: 0;
+
+  
+}
+
+.navbar li a:hover{
+    color: orangered;
+    
+}
+.collapse{
+    gap: 200px;
+}
+.collapse ul{
+    gap: 30px;
+    
+}
+
+.navbar .navbar-brand img{
+    width: 30px;
+    height: 40px;
+}
+@media screen and (max-width:576px){
+   
+    .collapse{
+        gap: 0px;
+    }
+    .collapse{
+        gap: 0px;
+    }
+    .collapse ul{
+        gap: 0px;
+        font-weight: 400;
+    }
+}
+
+
+
+main{
+    background-image: url(./img/pexels-shvets-production-9775489.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+
+.first-section{
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.inspiretext h1{
+    font-size: 60px;
+    margin: 0;
+}
+.inspiretext span{
+    color: orangered;
+}
+.inspiretext h4{
+    padding: 0;
+    margin: 0;
+}
+.front-view-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px 10px;
+}
+.front-view-btn:hover{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    main{
+        height: 200px;
+        
+    }
+    .first-section{
+        left: 20px;
+        top: 40px;
+    }
+    .inspiretext h1{
+        font-size: 20px;
+    }
+    .inspiretext h4{
+        font-size: 10px;
+    }
+    .front-view-btn{
+        font-size: 4px;
+        padding: 2px 5px;
+        border-radius: 2px;
+        margin: 0;
+    }
+
+}
+
+
+
+.second-section{
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.supportsection{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    
+}
+.threelayers{
+    text-align: center;
+    background-color: rgba(201, 200, 200, 0.908);
+    padding: 70px 120px;
+    border-radius: 5px;
+}
+.welcome p{
+    color: rgb(71, 70, 70);
+}
+
+
+
+
+@media screen and (max-width:576px){
+    .supportsection{
+        /* grid-template-columns: auto; */
+        gap: 5px;
+    }
+    .threelayers{
+        padding: 10px 20px;
+    }
+    .second-section{
+        margin-top: 5px;
+    }
+    .welcome{
+        /* display: none; */
+    }
+    .threelayers h5{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .welcome h5{
+        font-size: 15px;
+        margin: 0;
+    }
+    .welcome p{
+        font-size: 6px;
+        margin: 0;
+    }
+
+}
+
+
+
+.checkourp h5{
+    letter-spacing: 3px;
+}
+.third-section{
+    margin-top: 40px;
+    
+}
+.third-section img{
+    width: 100%;
+}
+.carousel-item {
+    /* filter: saturate(50%); */
+    /* text-shadow: #293c51d8; */
+}
+
+
+
+@media screen and (max-width:576px){
+    .checkourp h5{
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    .third-section{
+        margin-top: 20px;
+    }
+    .carouseltext h5{
+        font-size: 10px;
+    }
+    .carouseltext p{
+        display: none;
+    }
+}
+
+.forth-section{
+    
+}
+
+.forth-section h5{
+    margin-top: 40px;
+}
+.shopbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 5px;
+
+}
+.shopbtn button{
+   color: #293c51d8;
+   padding: 2px 5px;
+   border-radius: 1px;
+   font-size: 15px;
+   background-color: rgba(7, 91, 7, 0.715);
+   color: white;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    background-color:#F4F6FD  ;
+    color: #293c51d8;
+    border: none;
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+    
+}
+.card p{
+    margin-bottom: 0;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    transition: transform 0.8s;
+}
+/* .card:hover img{
+    transform: scale(1.5);
+    filter: saturate(50%);
+} */
+
+
+.doubleimg img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 500px;
+}
+
+.slidee{
+    margin-left: 10px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0;
+    
+    
+    
+}
+.fifth-section{
+    padding: 0;
+}
+.slidee::-webkit-scrollbar{
+    display: none;
+}
+.slidecart{
+    /* display: flex; */
+    padding: 5px;
+    /* margin: 0; */
+}
+.slideimg{
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.4;
+
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.modal1{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0;
+
+}
+.modalimg img{
+    max-height: 350px;
+}
+.modal1::-webkit-scrollbar{
+    display: none;
+}
+.modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 100vh;
+}
+.modalimg{
+    padding: 5px;
+}
+.modalcontent{
+background-color: transparent;}
